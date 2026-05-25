@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proposal Pengelolaan Sosial Media - CV. Jireh Creations</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- AOS Animation CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        poppins: ['Poppins', 'sans-serif'],
+                    },
+                    colors: {
+                        brand: {
+                            orange: '#FF6B6B',
+                            pink: '#FF8E8B',
+                            purple: '#6B5B95',
+                            blue: '#4ECDC4',
+                            yellow: '#FFE66D'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body { font-family: 'Poppins', sans-serif; }
+        .gradient-text {
+            background: linear-gradient(to right, #FF6B6B, #6B5B95);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .hero-gradient {
+            background: linear-gradient(135deg, rgba(255,107,107,0.9) 0%, rgba(107,91,149,0.9) 100%), url('https://images.unsplash.com/photo-1557682250-33bd709cbe85?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+        .glass-card {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800 antialiased overflow-x-hidden">
+
+    <!-- Navbar -->
+    <nav class="fixed w-full z-50 transition-all duration-300 glass-card shadow-sm py-4">
+        <div class="container mx-auto px-6 lg:px-12 flex justify-between items-center">
+            <div class="flex items-center gap-3">
+                <div class="w-10 h-10 rounded-full bg-gradient-to-tr from-brand-orange to-brand-purple flex items-center justify-center text-white font-bold text-xl">
+                    JC
+                </div>
+                <span class="font-bold text-xl tracking-tight text-gray-800">CV. Jireh Creations</span>
+            </div>
+            <div class="hidden md:block">
+                <a href="#proposal" class="bg-gradient-to-r from-brand-orange to-brand-purple text-white px-6 py-2 rounded-full font-semibold hover:shadow-lg hover:scale-105 transition-all">Lihat Penawaran</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero-gradient min-h-screen flex items-center pt-20">
+        <div class="container mx-auto px-6 lg:px-12 text-center">
+            <div data-aos="fade-down" data-aos-duration="1000" class="inline-block px-4 py-2 rounded-full bg-white/20 backdrop-blur-md text-white font-medium mb-6 border border-white/30">
+                Exclusive Proposal For
+            </div>
+            <h1 data-aos="zoom-in" data-aos-delay="200" class="text-5xl md:text-7xl font-extrabold text-white mb-6 leading-tight drop-shadow-lg">
+                <span class="client-name">EL Linens Bali</span>
+            </h1>
+            <p data-aos="fade-up" data-aos-delay="400" class="text-xl md:text-2xl text-white/90 max-w-3xl mx-auto mb-10 font-light drop-shadow-md">
+                Tingkatkan kehadiran digital brand Anda melalui strategi konten kreatif, desain visual memukau, dan pengelolaan sosial media yang terintegrasi.
+            </p>
+            <div data-aos="fade-up" data-aos-delay="600">
+                <a href="#solusi" class="inline-flex items-center justify-center w-16 h-16 rounded-full bg-white text-brand-purple hover:bg-brand-yellow hover:text-gray-900 transition-all shadow-xl animate-bounce">
+                    <i class="fas fa-arrow-down text-2xl"></i>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Intro Section -->
+    <section id="solusi" class="py-20 bg-white relative overflow-hidden">
+        <!-- Decorative blobs -->
+        <div class="absolute top-0 left-0 w-64 h-64 bg-brand-pink/20 rounded-full mix-blend-multiply filter blur-3xl opacity-70 animate-blob"></div>
+        <div class="absolute top-0 right-0 w-64 h-64 bg-brand-blue/20 rounded-full mix-blend-multiply filter blur-3xl opacity-70 animate-blob animation-delay-2000"></div>
+        
+        <div class="container mx-auto px-6 lg:px-12 relative z-10">
+            <div class="text-center max-w-3xl mx-auto mb-16" data-aos="fade-up">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">Solusi Digital <span class="gradient-text">All-in-One</span></h2>
+                <p class="text-gray-600 text-lg">Kami di CV. Jireh Creations hadir untuk membantu <span class="client-name">EL Linens Bali</span> mendominasi pasar digital dengan layanan komprehensif mulai dari media sosial hingga pengelolaan website.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mb-20">
+                <div data-aos="fade-right">
+                    <img src="https://images.unsplash.com/photo-1611162617474-5b21e879e113?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Platform Social Media" class="rounded-2xl shadow-2xl object-cover h-[400px] w-full transform hover:scale-[1.02] transition-transform duration-500">
+                </div>
+                <div data-aos="fade-left">
+                    <div class="w-14 h-14 rounded-2xl bg-brand-blue/10 flex items-center justify-center mb-6">
+                        <i class="fas fa-mobile-alt text-3xl text-brand-blue"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4">Manajemen Multi-Platform & Website</h3>
+                    <p class="text-gray-600 mb-6 text-lg leading-relaxed">
+                        Kami tidak hanya mengurus satu platform. Layanan kami mencakup optimasi dan pengelolaan aktif untuk akun <strong>Instagram, Facebook, dan TikTok</strong> Anda. Selain itu, kami juga akan melakukan <strong>pengelolaan konten Website</strong> <span class="client-name">EL Linens Bali</span> agar tetap up-to-date dan menarik bagi pengunjung.
+                    </p>
+                    <ul class="space-y-3">
+                        <li class="flex items-center gap-3 text-gray-700"><i class="fab fa-instagram text-pink-500 text-xl w-6"></i> Instagram Feed, Story & Reels</li>
+                        <li class="flex items-center gap-3 text-gray-700"><i class="fab fa-facebook text-blue-600 text-xl w-6"></i> Facebook Page Management</li>
+                        <li class="flex items-center gap-3 text-gray-700"><i class="fab fa-tiktok text-black text-xl w-6"></i> TikTok Video Content</li>
+                        <li class="flex items-center gap-3 text-gray-700"><i class="fas fa-globe text-brand-blue text-xl w-6"></i> Website Maintenance & Update</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Detail Section -->
+    <section class="py-20 bg-gray-50">
+        <div class="container mx-auto px-6 lg:px-12">
+            
+            <!-- Point 3 & 4: Konten & Desain -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mb-20">
+                <div data-aos="fade-right" class="order-2 md:order-1">
+                    <div class="w-14 h-14 rounded-2xl bg-brand-orange/10 flex items-center justify-center mb-6">
+                        <i class="fas fa-paint-brush text-3xl text-brand-orange"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4">Produksi Konten Kreatif Rutin</h3>
+                    <p class="text-gray-600 mb-6 text-lg leading-relaxed">
+                        Konsistensi adalah kunci di dunia digital. Kami menjamin publikasi <strong>minimal 4 konten setiap minggunya</strong> di platform Anda. 
+                    </p>
+                    <div class="bg-white p-6 rounded-2xl shadow-lg border border-gray-100">
+                        <h4 class="font-bold text-gray-800 mb-3 flex items-center gap-2">
+                            <i class="fas fa-star text-brand-yellow"></i> Termasuk dalam layanan:
+                        </h4>
+                        <ul class="space-y-3">
+                            <li class="flex items-start gap-3">
+                                <i class="fas fa-check-circle text-green-500 mt-1"></i>
+                                <div>
+                                    <strong class="block text-gray-800">Desain Flyer / Banner Promo</strong>
+                                    <span class="text-sm text-gray-500">Desain grafis premium untuk promosi produk <span class="client-name">EL Linens Bali</span>.</span>
+                                </div>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <i class="fas fa-check-circle text-green-500 mt-1"></i>
+                                <div>
+                                    <strong class="block text-gray-800">Editing Video Profesional</strong>
+                                    <span class="text-sm text-gray-500">Pembuatan Reels/TikTok yang engaging dan mengikuti tren terkini.</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div data-aos="fade-left" class="order-1 md:order-2">
+                    <div class="relative">
+                        <img src="https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Video Editing dan Desain" class="rounded-2xl shadow-2xl object-cover h-[450px] w-full">
+                        <div class="absolute -bottom-6 -left-6 bg-white p-4 rounded-xl shadow-xl flex items-center gap-4">
+                            <div class="bg-brand-pink text-white w-12 h-12 rounded-full flex items-center justify-center font-bold text-xl">4x</div>
+                            <div>
+                                <p class="text-sm text-gray-500 font-medium">Minimal</p>
+                                <p class="font-bold text-gray-800">Konten / Minggu</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Pricing & Term Section -->
+    <section id="proposal" class="py-20 hero-gradient relative">
+        <div class="container mx-auto px-6 lg:px-12 relative z-10">
+            <div class="text-center mb-16" data-aos="fade-up">
+                <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">Investasi & Ketentuan</h2>
+                <p class="text-white/80 text-lg">Penawaran harga terbaik untuk pertumbuhan bisnis <span class="client-name">EL Linens Bali</span></p>
+            </div>
+
+            <div class="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- Biaya Bulanan -->
+                <div data-aos="zoom-in" data-aos-delay="100" class="glass-card rounded-3xl p-8 text-center transform hover:-translate-y-2 transition-transform duration-300">
+                    <div class="w-20 h-20 mx-auto bg-gradient-to-br from-brand-orange to-brand-pink rounded-full flex items-center justify-center mb-6 shadow-lg">
+                        <i class="fas fa-tag text-3xl text-white"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-800 mb-2">Biaya Investasi</h3>
+                    <p class="text-gray-500 mb-6">Flat rate per bulan untuk semua layanan</p>
+                    <div class="text-4xl md:text-5xl font-extrabold gradient-text mb-4">
+                        Rp 2.500.000
+                    </div>
+                    <p class="text-gray-400 font-medium text-sm">/ bulan</p>
+                    <div class="mt-8 pt-6 border-t border-gray-200">
+                        <p class="text-sm text-gray-600">Mencakup IG, FB, TikTok, Web, 4x Konten/minggu (Desain & Video)</p>
+                    </div>
+                </div>
+
+                <!-- Durasi Kontrak -->
+                <div data-aos="zoom-in" data-aos-delay="200" class="glass-card rounded-3xl p-8 text-center transform hover:-translate-y-2 transition-transform duration-300">
+                    <div class="w-20 h-20 mx-auto bg-gradient-to-br from-brand-blue to-brand-purple rounded-full flex items-center justify-center mb-6 shadow-lg">
+                        <i class="fas fa-handshake text-3xl text-white"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-800 mb-2">Durasi Kontrak</h3>
+                    <p class="text-gray-500 mb-6">Komitmen jangka panjang untuk hasil maksimal</p>
+                    <div class="text-4xl md:text-5xl font-extrabold text-brand-purple mb-4">
+                        12 Bulan
+                    </div>
+                    <p class="text-gray-400 font-medium text-sm">*Dapat diperpanjang</p>
+                    <div class="mt-8 pt-6 border-t border-gray-200">
+                        <p class="text-sm text-gray-600">Kontrak mengikat untuk memastikan konsistensi branding dan algoritma yang stabil.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="mt-16 text-center" data-aos="fade-up" data-aos-delay="300">
+                <img src="https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Kerjasama Bisnis" class="w-full max-w-3xl mx-auto rounded-3xl shadow-2xl h-64 object-cover mb-8">
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer / Closing -->
+    <footer class="bg-gray-900 text-white py-16">
+        <div class="container mx-auto px-6 lg:px-12">
+            <div class="flex flex-col md:flex-row justify-between items-center gap-8">
+                <div class="text-center md:text-left">
+                    <h3 class="text-2xl font-bold mb-2 text-white">Siap Memulai Perjalanan Digital Bersama?</h3>
+                    <p class="text-gray-400">Kami sangat antusias untuk menjadi bagian dari kesuksesan <span class="client-name">EL Linens Bali</span>.</p>
+                </div>
+                <div class="flex flex-col items-center md:items-end">
+                    <p class="text-gray-400 mb-1">Diajukan dengan hormat oleh,</p>
+                    <p class="text-xl font-bold text-brand-yellow mb-4">CV. Jireh Creations</p>
+                    <button onclick="approveProposal()" class="bg-gradient-to-r from-brand-orange to-brand-pink text-white px-8 py-3 rounded-full font-bold hover:shadow-lg hover:shadow-brand-pink/50 transform hover:-translate-y-1 transition-all">
+                        Setujui Proposal <i class="fab fa-whatsapp ml-2 text-lg"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 mt-12 pt-8 text-center text-gray-500 text-sm">
+                &copy; 2026 CV. Jireh Creations. All rights reserved. Proposal for <span class="client-name">EL Linens Bali</span>.
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating Link Generator Tool (For CV. Jireh Creations Admin) -->
+    <div class="fixed bottom-6 right-6 z-50">
+        <!-- Floating Button -->
+        <button id="generatorBtn" class="w-14 h-14 bg-gradient-to-r from-brand-orange to-brand-purple text-white rounded-full flex items-center justify-center shadow-2xl hover:scale-110 transition-transform focus:outline-none">
+            <i class="fas fa-link text-xl"></i>
+        </button>
+        
+        <!-- Generator Card (Hidden by default) -->
+        <div id="generatorCard" class="hidden absolute bottom-16 right-0 w-80 p-6 glass-card rounded-2xl shadow-2xl border border-gray-200 text-gray-800">
+            <h4 class="font-bold text-lg mb-2 text-gray-800 flex items-center gap-2">
+                <i class="fas fa-cog text-brand-purple"></i> Custom Nama Klien
+            </h4>
+            <p class="text-xs text-gray-500 mb-4">Masukkan nama klien untuk menghasilkan tautan proposal kustom.</p>
+            <div class="space-y-3">
+                <input type="text" id="klienInput" placeholder="Contoh: Cafe Kita Bali" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-brand-purple focus:outline-none text-sm">
+                <button id="copyLinkBtn" class="w-full bg-gradient-to-r from-brand-orange to-brand-purple text-white py-2 rounded-lg font-semibold text-sm hover:shadow-md transition-shadow">
+                    Salin Link Proposal
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Custom Alert Modal (To replace default browser alert) -->
+    <div id="customAlert" class="hidden fixed inset-0 z-[100] flex items-center justify-center px-4 bg-black/60 backdrop-blur-sm">
+        <div class="bg-white rounded-2xl p-8 max-w-md w-full shadow-2xl text-center">
+            <div class="w-16 h-16 bg-green-100 text-green-500 rounded-full flex items-center justify-center mx-auto mb-4 animate-bounce">
+                <i class="fab fa-whatsapp text-3xl"></i>
+            </div>
+            <h3 class="text-xl font-bold mb-2">Membuka WhatsApp...</h3>
+            <p class="text-gray-600 mb-6">Pesan persetujuan proposal sedang diarahkan ke WhatsApp kami di <strong>085738792550</strong>. Silakan kirim pesan tersebut di aplikasi WhatsApp Anda.</p>
+            <button onclick="closeCustomAlert()" class="bg-gray-800 hover:bg-gray-900 text-white px-6 py-2 rounded-full font-semibold transition-colors">
+                Tutup
+            </button>
+        </div>
+    </div>
+
+    <!-- Custom Toast Notification -->
+    <div id="toast" class="hidden fixed bottom-24 right-6 z-[100] bg-gray-900 text-white px-4 py-3 rounded-xl shadow-lg flex items-center gap-2 transform translate-y-2 opacity-0 transition-all duration-300">
+        <i class="fas fa-info-circle text-brand-blue"></i>
+        <span id="toastMsg" class="text-sm font-medium">Link berhasil disalin!</span>
+    </div>
+
+    <!-- AOS Animation Script -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            once: true,
+            offset: 100,
+        });
+
+        // Function to extract URL parameters
+        function getQueryParam(param) {
+            const urlParams = new URLSearchParams(window.location.search);
+            return urlParams.get(param);
+        }
+
+        // Initialize Dynamic Client Name
+        document.addEventListener("DOMContentLoaded", () => {
+            // Support both 'to' and 'klien' parameter
+            const clientParam = getQueryParam('to') || getQueryParam('klien');
+            const defaultName = "EL Linens Bali";
+            
+            if (clientParam) {
+                const decodedName = decodeURIComponent(clientParam).trim();
+                if (decodedName) {
+                    // Update all client name elements
+                    const nameElements = document.querySelectorAll('.client-name');
+                    nameElements.forEach(el => {
+                        el.textContent = decodedName;
+                    });
+                    
+                    // Update the Document Page Title dynamically
+                    document.title = `Proposal Pengelolaan Sosial Media - ${decodedName} x CV. Jireh Creations`;
+                }
+            }
+        });
+
+        // Toggle Link Generator UI
+        const generatorBtn = document.getElementById('generatorBtn');
+        const generatorCard = document.getElementById('generatorCard');
+        const klienInput = document.getElementById('klienInput');
+        const copyLinkBtn = document.getElementById('copyLinkBtn');
+
+        generatorBtn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            generatorCard.classList.toggle('hidden');
+        });
+
+        // Close card if clicked outside
+        document.addEventListener('click', (e) => {
+            if (!generatorCard.contains(e.target) && e.target !== generatorBtn && !generatorBtn.contains(e.target)) {
+                generatorCard.classList.add('hidden');
+            }
+        });
+
+        // Copy Link Action
+        copyLinkBtn.addEventListener('click', () => {
+            const nameVal = klienInput.value.trim();
+            if (!nameVal) {
+                showToast("Silakan masukkan nama klien terlebih dahulu!", "error");
+                return;
+            }
+
+            // Generate clean URL with query param
+            const baseUrl = window.location.href.split('?')[0];
+            const customUrl = `${baseUrl}?to=${encodeURIComponent(nameVal)}`;
+            
+            // Clipboard fallback as requested for environments with restrictions
+            const tempInput = document.createElement('input');
+            tempInput.value = customUrl;
+            document.body.appendChild(tempInput);
+            tempInput.select();
+            document.execCommand('copy');
+            document.body.removeChild(tempInput);
+
+            showToast(`Tautan kustom untuk "${nameVal}" disalin!`);
+            generatorCard.classList.add('hidden');
+            klienInput.value = ''; // Reset input
+        });
+
+        // Custom Toast Helper
+        function showToast(message, type = "success") {
+            const toast = document.getElementById('toast');
+            const toastMsg = document.getElementById('toastMsg');
+            toastMsg.textContent = message;
+            
+            toast.classList.remove('hidden', 'translate-y-2', 'opacity-0');
+            toast.classList.add('translate-y-0', 'opacity-100');
+
+            setTimeout(() => {
+                toast.classList.add('translate-y-2', 'opacity-0');
+                setTimeout(() => {
+                    toast.classList.add('hidden');
+                }, 300);
+            }, 3000);
+        }
+
+        // Action when "Setujui Proposal" is clicked
+        function approveProposal() {
+            // Get current dynamic client name
+            const clientNameEl = document.querySelector('.client-name');
+            const clientName = clientNameEl ? clientNameEl.textContent.trim() : "EL Linens Bali";
+            
+            // Craft premium WhatsApp message
+            const waNumber = "6285738792550"; // International format for 085738792550
+            const textMessage = `Halo CV. Jireh Creations, kami tertarik dengan proposal pengelolaan sosial media dan ingin menyetujui penawaran kerja sama untuk *${clientName}*. Mari kita diskusikan langkah selanjutnya!`;
+            
+            const waUrl = `https://wa.me/${waNumber}?text=${encodeURIComponent(textMessage)}`;
+            
+            // Open WA in a new tab safely
+            window.open(waUrl, '_blank');
+            
+            // Show custom styled modal feedback
+            showCustomAlert();
+        }
+
+        // Custom Modal Alert Handlers
+        function showCustomAlert() {
+            document.getElementById('customAlert').classList.remove('hidden');
+        }
+
+        function closeCustomAlert() {
+            document.getElementById('customAlert').classList.add('hidden');
+        }
+    </script>
+</body>
+</html>
